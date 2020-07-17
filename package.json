@@ -43,5 +43,6 @@
     "chalk": "^2.4.1",
     "node-opus": "^0.3.1",
     "better-sqlite-pool": "^0.2.0"
+    "node.js": "14.4.0"
   }
 }
