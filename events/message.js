@@ -4,7 +4,7 @@ module.exports = (client, message) => {
   
  const prefixMention = new RegExp(`^<@!?${client.user.id}>( |)$`);
   if (message.content.match(prefixMention)) {
-    return message.reply(`My prefix is \`${client.config.prefix}\` , I am in **${client.guilds.size} guilds**.`);
+    return message.reply(`My prefix is \`${client.config.prefix}\` , do h!cmds`);
   } 
 
   // Ignore messages not starting with the prefix (in config.json)
