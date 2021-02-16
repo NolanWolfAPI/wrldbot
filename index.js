@@ -23,25 +23,34 @@ setInterval(() => {
 client.on('ready', () => {
    let currentmessage;
   var Messages = [
-    "discord.gg/wrld",
-    "Run ',help' for my command list.",
-    "Maintained and Developed by nolan.#0999",
-    "Updates are performed bi-weekly.",
-    "JuiceWRLD's Leaks"
-  
+    "THE NATIONAL SECURITY AGENCY",
+    `THE CENTRAL INTELLIGENCE AGENCY`,
+    `THE FEDERAL BUREAU OF INVESTIGATION`,
+    `THE DEPARTMENT OF HOMELAND SECURITY`,
+    `THE DEPARTMENT OF JUSTICE`,
+    `THE DEPARTMENT OF STATE`,
+    `THE DEPARTMENT OF DEFENSE`,
+    `THE MARSHAL SERVICE`,
+    `THE UNITED STATES MILITARY`,
+    `THE METROPOLITAIN POLICE DEPARTMENT`,
+    `THE SECRET SERVICE`,
+    `THE CONGRESS`,
+    `THE WHITE HOUSE`,
+    `THE JUDICIARY`,
   ];
   
-
+  
   setInterval(function() {
     var randomMessage = Messages[Math.floor(Math.random()*Messages.length)];
-    client.user.setActivity(randomMessage, { type: 'LISTENING'});
-  }, 6770);
+    client.user.setActivity(randomMessage, { type: 'WATCHING'});
+  }, 4770);
 });
+
 
 
 client.on('guildMemberAdd', member => {   
   const members = member.guild.memberCount;
-	  const channel = member.guild.channels.find('name', 'wecome');
+	  const channel = member.guild.channels.find('name', 'welcome');
 	  if (!channel) return;
   
   let Embed = new Discord.RichEmbed()
@@ -54,7 +63,7 @@ client.on('guildMemberAdd', member => {
   
 client.on('guildMemberRemove', member => {
   const members = member.guild.memeberCount;
-	  const channel = member.guild.channels.find(`name`, 'wecome');
+	  const channel = member.guild.channels.find(`name`, 'welcome');
 	  if(!channel) return; 
     
 	  let Embed = new Discord.RichEmbed()
@@ -90,6 +99,148 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem ZU1U-R3L34S3")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. ✅⌨`) 
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});	
+      
+  
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem KoPU-RGLP41H")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. :smiley: :tada:`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+}); 
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem Z9Io-XM4S")) {
+    message.delete().catch();
+  
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. 😃 🎉`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});
+
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem ALIm-PR3M")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. 😃 🎉`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});
+
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem PuLI-C3L4")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. 😃 🎉`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem NOLN-ISGY")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. 😃 🎉`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  if (message.content.startsWith(config.prefix + "redeem H1RO-M1LP")) {
+    message.delete().catch();
+    
+  let embed = new Discord.RichEmbed()
+  .setTitle("Redeemed")
+  .setColor('RANDOM')
+  .addField("Code has been redeemed")
+  .setFooter(`${message.author.tag}, You have received life time premium. 😃 🎉`)
+   message.channel.send(embed)
+     
+    let redeemed = new Discord.RichEmbed()
+    .setTitle("Redeemed")
+    .setColor('RANDOM')
+    .addField("Your life time premium Zulu: https://discordapp.com/oauth2/authorize?client_id=523440085643952138&scope=bot&permissions=1446509823")
+    message.author.send(redeemed)
+  }
+});
 
 client.on('guildCreate', guild => {
 	  let channel = client.channels.get("526825234364629037");
